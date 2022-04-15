@@ -1,0 +1,191 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Gotham", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.logo-bar {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-logo {
+  width: 115%;
+}
+
+.abta-logo {
+  height: 3rem;
+}
+
+.logo-2 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo-right {
+  height: 6rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar {
+  background-color: #00427c;
+  padding: 0.8rem;
+}
+
+.btn-secondary {
+  all: unset;
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.navbar-link {
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+  color: #fff;
+}
+
+.btn-warning {
+  color: #00427c;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  padding: 3rem;
+  width: 24rem;
+  transform: translate3d(0px, 33px, 0px) !important;
+}
+
+.dropdown-item {
+  font-size: 1.4rem;
+  background-color: #e0e0e0;
+  padding: 1rem;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.card-box {
+  display: flex;
+  gap: 4rem;
+  margin-top: 10rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-img-top {
+  border-radius: 8px;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-title {
+  text-transform: uppercase;
+  color: #00427c;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.star-icon {
+  height: 15px;
+  width: 15px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.btn-primary {
+  background-color: #fbbb00;
+  font-size: 1.8rem;
+  font-weight: 600;
+
+  border-radius: 6px;
+}
+
+.card-text {
+  color: #00427c;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+span {
+  font-size: 3.5rem;
+  color: #00427c;
+  font-weight: 600;
+}
+
+.price-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion {
+  font-size: 1.5rem;
+}
+
+#accordion {
+  width: 80%;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.heading-4 {
+  font-size: 2.6rem;
+  color: #00427c;
+  letter-spacing: 0.6px;
+}
+
+.accordion-button {
+  font-size: 1.6rem;
+  background-color: #fbbc0057;
+  color: #00427c;
+}
+
+.accordion-collapse {
+  padding: 2rem 0;
+}
+
+footer {
+  background-color: #00427c;
+  padding: 0.9rem;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+footer p {
+  margin: 0;
+}
